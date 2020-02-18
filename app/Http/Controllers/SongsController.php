@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Song;
 use App\Team;
+use App\Player;
 
 class SongsController extends Controller
 {
@@ -56,7 +57,9 @@ class SongsController extends Controller
      */
     public function show($id)
     {
-        //
+       $song = Song::find($id);
+       $player = Player::find($song->player_id);
+       return view("songs.show",compact("song","player"));
     }
 
     /**

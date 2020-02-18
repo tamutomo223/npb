@@ -17,3 +17,4 @@ Route::get("/","SongsController@index");
 Route::get("/create","SongsController@create");
 Route::post("/","SongsController@store");
 Route::get("/teams/{id}","TeamsController@show");
+Route::get("/songs/{id}","SongsController@show");
