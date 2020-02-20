@@ -1,7 +1,11 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     text-align: center;
+}
+
+body {
+    background-color: #e7e6e6;
 }
 
 audio {
@@ -11,10 +15,182 @@ audio {
     width: 150px;
 }
 
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(190, 189, 189);
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+}
+
+header > div {
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 50px;
+}
+header > i {
+    margin: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+    color: white;
+    font-size: 34px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.team-l {
+    color: #333333;
+    text-shadow: none;
+    font-weight: bold;
+    margin: 12px;
+}
+.banar {
+    background-image: url("bana.png");
+    background-size: cover;
+    height: calc(100vh - 80px);
+    width: 90vw;
+    margin: 0 auto;
+    position: relative;
+    border-top: solid rgba(255, 255, 255, 0) 80px;
+}
+
+.banar-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.banar-title > h1 {
+    font-weight: 600;
+    font-size: 80px;
+    padding-bottom: 10px;
+}
+
 .song {
     border: solid 2px blue;
     background-color: rgba(0, 0, 255, 0.363);
     width: 80vw;
     margin: 20px auto;
     padding: 10px;
+}
+
+.dragons {
+    background-color: blue;
+    border: solid 2px white;
+    color: white;
+}
+.giants {
+    background-color: rgb(255, 145, 0);
+    border: solid 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.bay {
+    background-color: rgb(0, 119, 255);
+    border: solid 2px white;
+    color: white;
+}
+.tigers {
+    background-color: rgb(251, 255, 0);
+    border: solid 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.carp {
+    background-color: rgb(255, 0, 0);
+    border: solid 2px white;
+    color: white;
+}
+.swa {
+    background-color: rgb(123, 255, 0);
+    border: solid 2px rgb(18, 31, 92);
+    color: rgb(18, 31, 92);
+}
+
+.lions {
+    background-color: rgb(8, 42, 117);
+    border: solid 2px white;
+    color: white;
+}
+.hawks {
+    background-color: rgb(255, 217, 0);
+    border: solid 2px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.eagle {
+    background-color: rgb(109, 0, 0);
+    border: solid 2px white;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+
+.marin {
+    background-color: rgb(0, 0, 0);
+    border: solid 2px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.fighters {
+    background-color: #00695b;
+    border: solid 2px #00695b;
+    color: #ffd700;
+}
+.buff {
+    background-color: rgb(18, 31, 92);
+    border: solid 2px rgb(18, 31, 92);
+    color: gold;
+}
+.team {
+    display: flex;
+    justify-content: center;
+}
+.team-flex {
+    width: 400px;
+    height: 60px;
+    margin: 10px 30px;
+    transition: 0.3s;
+}
+
+.team-left,
+.team-right {
+    margin: left !important;
+}
+
+.team-name {
+    line-height: 60px;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.team-title {
+    padding: 60px 0px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.team-flex:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.eagle-name {
+    font-size: 27px;
+}
+
+footer {
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
 }
