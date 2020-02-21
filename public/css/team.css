@@ -1,0 +1,45 @@
+.team-wrapper > h2 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.player-list {
+    width: 70vw;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.player {
+    display: flex;
+    justify-content: left;
+    font-size: 24px;
+    color: black;
+    border: solid 1px black;
+    margin: 2px;
+    width: 300px;
+}
+
+.player-num {
+    margin: 0px 10px;
+}
+
+.player-name {
+    margin: 0px 10px 0px auto;
+}
+
+.player-name2 {
+    color: black;
+    text-shadow: none;
+}
+
+audio {
+    margin: 0 auto;
+}
+
+.lyrics {
+    margin: 20px;
+}
